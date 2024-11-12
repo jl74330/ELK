@@ -13,7 +13,7 @@ printf "DESCRIPTION:
         -s server_url -a apikey
 
         EXAMPLE:
-        -s https://elastic-teos-ppd.intranet.geodis.org -a XXXXXXXXXXX"
+        -s https://elastic-fqdn.org -a XXXXXXXXXXX"
 }
 
 while getopts "s:a:" OPTIONS; do
